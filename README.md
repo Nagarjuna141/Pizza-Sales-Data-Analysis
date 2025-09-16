@@ -19,7 +19,8 @@ It demonstrates data cleaning, joins, grouping, and advanced SQL techniques like
 
 ##  SQL Basic Analysis 
 
-```--Retrieve the total number of orders placed.
+```sql
+--Retrieve the total number of orders placed.
 SELECT COUNT(order_id) AS total_orders FROM orders;
 
 --Calculate the total revenue generated from pizza sales.
